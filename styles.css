@@ -1,22 +1,34 @@
 .container {
   display:flex;
   background-color: grey;
-  padding: 10px;
-  width: min-content;
-  
-}
-
-.primero {
-  background-color: rgb(255, 255, 255);
-  margin: 10px;
   width: 200px;
-  height: 200px;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
 
+   
+}
+.comporate {
+  width: 300px;
+  height: 60px;
+  background-color:aqua
+
+
+}
+.primero {
+  background-color: rgb(243, 15, 15);
+  width: 50px;
+  height: 50px;
+  border-color: blueviolet;
+  border-width: 2px;
+  border-style: solid;
+  box-sizing: border-box;
+  margin: -2px;
 }
 
 .segundo {
   background-color: rgb(255, 255, 255);
-  margin: 10px;
-  width: 200px;
-  height: 200px;
+  margin: 1px;
+  width: 20x;
+  height: 20px;
 }
