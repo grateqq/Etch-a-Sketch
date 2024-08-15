@@ -1,0 +1,22 @@
+.container {
+  display:flex;
+  background-color: grey;
+  padding: 10px;
+  width: min-content;
+  
+}
+
+.primero {
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.segundo {
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
