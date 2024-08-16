@@ -1,7 +1,26 @@
 console.log("hj")
-// elebgimos un nodo y lo nombramos div nodo
 let divcont = document.getElementById("conta");
-console.log(divcont)
+//boton en divbutton
+let divbutton = document.getElementById("button")
+console.log(divbutton)
+// Creando boton
+let button = document.createElement("button");
+button.textContent = "NEW GAME"
+button.addEventListener("click", function() { 
+  let divcont = document.getElementById("conta");
+  divcont.innerHTML = "";
+
+  numero = prompt ("numero de filas", "16")
+  numero = numero * 4
+  inicio(numero)
+});
+
+divbutton.appendChild(button)
+
+
+// elebgimos un nodo y lo nombramos div nodo
+
+
 // creamos un elemento en la memoria
 function inicio(numeroceldas) {
 for (let i= 1; i<=numeroceldas; i++) {
@@ -22,7 +41,7 @@ divcont.appendChild(divcelda)
 }
 }
 
-inicio(36)
+
 /*
 //DOM 
 let celda = document.getElementById("celda")
