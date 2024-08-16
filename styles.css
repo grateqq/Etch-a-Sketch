@@ -16,10 +16,10 @@
 
 }
 .primero {
-  background-color: rgb(243, 15, 15);
+  background-color: rgb(15, 133, 243);
   width: 50px;
   height: 50px;
-  border-color: blueviolet;
+  border-color: rgb(0, 0, 0);
   border-width: 2px;
   border-style: solid;
   box-sizing: border-box;
@@ -27,8 +27,12 @@
 }
 
 .segundo {
-  background-color: rgb(255, 255, 255);
-  margin: 1px;
-  width: 20x;
-  height: 20px;
+  background-color: #80eddb;
+  width: 50px;
+  height: 50px;
+  border-color: blueviolet;
+  border-width: 2px;
+  border-style: solid;
+  box-sizing: border-box;
+  margin: -2px;
 }
