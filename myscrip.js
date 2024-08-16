@@ -3,7 +3,8 @@ console.log("hj")
 let divcont = document.getElementById("conta");
 console.log(divcont)
 // creamos un elemento en la memoria
-for (let i= 1; i<=16; i++) {
+function inicio(numeroceldas) {
+for (let i= 1; i<=numeroceldas; i++) {
 let divcelda = document.createElement("div")
 divcelda.className = "primero"
 divcelda.textContent = i
@@ -19,6 +20,9 @@ divcelda.addEventListener("mouseout", function() {
 // Insertamos el elemento en DOM
 divcont.appendChild(divcelda)
 }
+}
+
+inicio(36)
 /*
 //DOM 
 let celda = document.getElementById("celda")
