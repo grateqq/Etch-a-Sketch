@@ -24,7 +24,7 @@ divbutton.appendChild(button)
 
 // creamos un elemento en la memoria
 function inicio(numeroceldas) {
-  let pxancho= 46*(numero1)
+  let pxancho= 46.364*(numero1)
   console.log("numero: " + numero1)
   console.log(pxancho)
   divcont.style.width=pxancho + "px" ;
